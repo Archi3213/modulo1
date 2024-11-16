@@ -48,7 +48,7 @@ public class CartillaPerro {
 			fechas.add(fechaAplicacion);
 			vacunas.put(nombreVacuna, fechas);
 		}
-		else {
+		else {//8o7887
 			ArrayList<String> fechas = new ArrayList<>();
 			fechas.add(fechaAplicacion);
 			vacunas.put(nombreVacuna, fechas);
