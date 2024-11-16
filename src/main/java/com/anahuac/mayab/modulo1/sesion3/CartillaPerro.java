@@ -53,8 +53,7 @@ public class CartillaPerro {
 			fechas.add(fechaAplicacion);
 			vacunas.put(nombreVacuna, fechas);
 		}
-		
+
 	}
-	
 	
 }
