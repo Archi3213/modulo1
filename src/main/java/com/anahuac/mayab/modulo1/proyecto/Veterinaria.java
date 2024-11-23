@@ -39,7 +39,7 @@ public class Veterinaria {
         listaPacientes.add(cartilla);
     }
     
-    public void imprimirCartilla() {
+    public void imprimirExpedientes() {
         for (CartillaPerro c : listaPacientes) {
             c.imprimirCartilla();
         }
