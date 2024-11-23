@@ -1,0 +1,17 @@
+---- Datos Perro -----
+Nombre: Max
+[Raza: Labrador, Tamaño: Grande, Peso: 30.0, Dueño: Carlos P., Edad: 4]
+------------
+Vacuna : Parvovirus
+Fecha : 01/JUL/2022
+------------
+Vacuna : Vacuna puppy
+Fecha : 12/JUN/2024
+------------
+Vacuna : SARS
+Fecha : 15/MAY/2023
+------------
+Vacuna : Rabia
+Fecha : 12/JUN/2022
+Fecha : 12/JUN/2023
+------------

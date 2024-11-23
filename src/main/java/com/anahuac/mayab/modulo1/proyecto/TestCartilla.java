@@ -1,4 +1,7 @@
 package com.anahuac.mayab.modulo1.proyecto;
+
+import java.io.IOException;  // Importa la clase IOException
+
 public class TestCartilla {
 
     public static void main(String[] args) {
@@ -26,5 +29,14 @@ public class TestCartilla {
         // Imprimir la cartilla de ambos perros
         cartilla1.imprimirCartilla();  
         cartilla2.imprimirCartilla();
+        
+        // Guardar la cartilla de cada perro en un archivo .txt
+        try {
+            cartilla1.imprimirExpediente(); // Guardará un archivo "Max.txt"
+            cartilla2.imprimirExpediente(); // Guardará un archivo "Rocky.txt"
+        } catch (IOException e) {
+            System.out.println("Hubo un error al intentar guardar el expediente.");
+            e.printStackTrace();
+        }
     }
 }
