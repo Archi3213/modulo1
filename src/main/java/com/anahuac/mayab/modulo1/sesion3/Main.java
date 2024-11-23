@@ -3,7 +3,7 @@ package com.anahuac.mayab.modulo1.sesion3;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class TestPerro {
+public class Main {
     public static void main(String[] args) {
         // Crear 5 perros
         Perro perro1 = new Perro("Max", "Carlos", 4);
