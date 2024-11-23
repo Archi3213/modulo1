@@ -1,52 +1,62 @@
 package com.anahuac.mayab.modulo1.proyecto;
 
-public class Servicio {
+public abstract class Servicio {
+    private String tipo;
+    private double costo;
+    private String fecha;
+    private String encargado;
+    private CartillaPerro cartilla;
 
-	    private String tipo;
-	    private double costo;
-	    private String fecha;
-	    private String encargado;
+    // Constructor
+    public Servicio(String tipo, double costo, String fecha, String encargado) {
+        super();
+        this.tipo = tipo;
+        this.costo = costo;
+        this.fecha = fecha;
+        this.encargado = encargado;
+    }
 
-	    public  Servicio(String tipo, double costo, String fecha, String encargado) {
-	        super();
-	        this.tipo = tipo;
-	        this.costo = costo;
-	        this.fecha = fecha;
-	        this.encargado = encargado;
-	    }
+    // Getters y setters
+    public String getTipo() {
+        return tipo;
+    }
 
-	    public String getTipo() {
-	        return tipo;
-	    }
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
 
-	    public void setTipo(String tipo) {
-	        this.tipo = tipo;
-	    }
+    public double getCosto() {
+        return costo;
+    }
 
-	    public double getCosto() {
-	        return costo;
-	    }
+    public void setCosto(double costo) {
+        this.costo = costo;
+    }
 
-	    public void setCosto(double costo) {
-	        this.costo = costo;
-	    }
+    public String getFecha() {
+        return fecha;
+    }
 
-	    public String getFecha() {
-	        return fecha;
-	    }
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
 
-	    public void setFecha(String fecha) {
-	        this.fecha = fecha;
-	    }
+    public String getEncargado() {
+        return encargado;
+    }
 
-	    public String getEncargado() {
-	        return encargado;
-	    }
+    public void setEncargado(String encargado) {
+        this.encargado = encargado;
+    }
 
-	    public void setEncargado(String encargado) {
-	        this.encargado = encargado;
-	    }
+    public CartillaPerro getCartilla() {
+        return cartilla;
+    }
 
-	    public abstract void re
+    public void setCartilla(CartillaPerro cartilla) {
+        this.cartilla = cartilla;
+    }
 
+    // Método abstracto que debe ser implementado en las subclases
+    public abstract void realizar(String nombre);
 }

@@ -1,3 +1,0 @@
-Hola, bienvenido al diplomado de programación
-	en JAVA
-Esta es otra línea
